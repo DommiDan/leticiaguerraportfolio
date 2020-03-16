@@ -1,0 +1,53 @@
+.nav-item.nav-link {
+    color:black;
+}
+.ui.two.stackable.cards {
+    padding-top: 100px;
+    margin:100px
+}
+.description {
+    padding-bottom:20px
+}
+.size{
+    width: 427px;
+    height: 240.40px;
+}
+i.icon, i.icons {
+    color: whitesmoke;
+    font-size: 23px;
+}
+.item{
+    padding-left:300px
+}
+.ui.compact.menu {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    vertical-align: middle;
+    background-color: transparent;
+}
+i.icon {
+    display: inline-block;
+    opacity: 1;
+    margin: 0 .55rem 0 0;
+    width: 1.18em;
+    height: 1em;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: inherit;
+    text-align: center;
+    speak: none;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.ui.secondary.inverted.pointing.menu .item {
+    color: deeppink;
+}
