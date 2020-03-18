@@ -1,89 +1,124 @@
 .nav-item.nav-link {
-    color: black;
-  }
-  .ui.four.stackable.cards {
-    padding-top: 100px;
-  }
-  .ui.three.stackable.cards {
-    padding-top: 100px;
-  }
-  .description {
-    padding-bottom: 20px;
-  }
-  .size {
-    width: 427px;
-    height: 240.4px;
-  }
-  i.icon,
-  i.icons {
-    color: whitesmoke;
-    font-size: 23px;
-  }
-  .item {
-    padding-left: 300px;
-  }
-  .ui.compact.menu {
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    margin: 0;
-    vertical-align: middle;
-    background-color: transparent;
-  }
-  i.icon {
-    display: inline-block;
-    opacity: 1;
-    margin: 0 0.55rem 0 0;
-    width: 1.18em;
-    height: 1em;
-    font-family: Icons;
-    font-style: normal;
-    font-weight: 400;
-    text-decoration: inherit;
-    text-align: center;
-    speak: none;
-    font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-  }
-  *,
-  ::after,
-  ::before {
-    box-sizing: border-box;
-  }
-  .ui.secondary.inverted.pointing.menu .item {
-    color: deeppink;
-  }
-  .footer {
-    background-color: black;
-    left: 0;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    width: 100%;
-    padding-bottom: 60px;
-    margin: 0;
-    padding-top: 30px;
-    height: 10px;
-    margin-top: 550px;
-    font-size: 13px;
-  }
-  .ui.inverted.orange.button,
-  .ui.inverted.orange.buttons .button {
-    background-color: transparent;
-    -webkit-box-shadow: 0 0 0 2px #ff851b inset !important;
-    box-shadow: 0 0 0 2px #ff851b inset !important;
-    color: #ff851b;
-    margin-bottom: 10px;
-  }
-  .ui.inverted.violet.button,
-  .ui.inverted.violet.buttons .button {
-    background-color: transparent;
-    -webkit-box-shadow: 0 0 0 2px #a291fb inset !important;
-    box-shadow: 0 0 0 2px #a291fb inset !important;
-    color: #a291fb;
-    margin-bottom: 10px;
-  }
-  
+  color: black;
+}
+.ui.four.stackable.cards {
+  padding-top: 100px;
+
+}
+.ui.three.stackable.cards {
+  padding-top: 100px;
+
+}
+.description {
+  padding-bottom: 20px;
+}
+.size {
+  width: 427px;
+  height: 240.4px;
+}
+i.icon,
+i.icons {
+  color: whitesmoke;
+  font-size: 23px;
+}
+.item {
+  padding-left: 300px;
+}
+.ui.compact.menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  vertical-align: middle;
+  background-color: transparent;
+}
+i.icon {
+  display: inline-block;
+  opacity: 1;
+  margin: 0 0.55rem 0 0;
+  width: 1.18em;
+  height: 1em;
+  font-family: Icons;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: inherit;
+  text-align: center;
+  speak: none;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+.ui.secondary.inverted.pointing.menu .item {
+  color: deeppink;
+}
+.footer {
+  background-color: black;
+  left: 0;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 60px;
+  margin: 0;
+  padding-top: 30px;
+  height: 10px;
+  margin-top: 550px;
+  font-size: 13px;
+}
+.ui.inverted.orange.button,
+.ui.inverted.orange.buttons .button {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 2px #ff851b inset !important;
+  box-shadow: 0 0 0 2px #ff851b inset !important;
+  color: #ff851b;
+  margin-bottom: 10px;
+}
+.ui.inverted.violet.button,
+.ui.inverted.violet.buttons .button {
+  background-color: transparent;
+  -webkit-box-shadow: 0 0 0 2px #a291fb inset !important;
+  box-shadow: 0 0 0 2px #a291fb inset !important;
+  color: #a291fb;
+  margin-bottom: 10px;
+}
+.ui.huge.header{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 17px;
+}
+.footertext {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px;
+}
+.ui.header {
+  border: none;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  padding: 0 0;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 1.28571429em;
+  text-transform: none;
+  color: rgba(0,0,0,.87);
+  padding: 50px;
+}
+.ui.header + p {
+  margin-top: 0;
+  margin: 50px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 50px;
+}

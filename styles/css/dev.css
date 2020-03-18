@@ -97,3 +97,28 @@ p {
   text-align: center;
   font-size: 17px;
 }
+.footertext {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px;
+}
+.ui.header {
+  border: none;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  padding: 0 0;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 1.28571429em;
+  text-transform: none;
+  color: rgba(0,0,0,.87);
+  padding: 50px;
+}
+.ui.header + p {
+  margin-top: 0;
+  margin: 50px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 50px;
+}

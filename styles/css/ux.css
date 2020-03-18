@@ -3,9 +3,11 @@
 }
 .ui.four.stackable.cards {
   padding-top: 100px;
+
 }
 .ui.three.stackable.cards {
   padding-top: 100px;
+
 }
 .description {
   padding-bottom: 20px;
@@ -85,4 +87,38 @@ i.icon {
   box-shadow: 0 0 0 2px #a291fb inset !important;
   color: #a291fb;
   margin-bottom: 10px;
+}
+.ui.huge.header{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 17px;
+}
+.footertext {
+  text-align: center;
+  font-size: 15px;
+  padding: 0px;
+}
+.ui.header {
+  border: none;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  padding: 0 0;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  line-height: 1.28571429em;
+  text-transform: none;
+  color: rgba(0,0,0,.87);
+  padding: 50px;
+}
+.ui.header + p {
+  margin-top: 0;
+  margin: 50px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin: 50px;
 }
