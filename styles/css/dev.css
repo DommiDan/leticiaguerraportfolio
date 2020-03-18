@@ -3,9 +3,11 @@
 }
 .ui.four.stackable.cards {
   padding-top: 100px;
+
 }
 .ui.three.stackable.cards {
   padding-top: 100px;
+
 }
 .description {
   padding-bottom: 20px;
@@ -85,4 +87,13 @@ i.icon {
   box-shadow: 0 0 0 2px #a291fb inset !important;
   color: #a291fb;
   margin-bottom: 10px;
+}
+.ui.huge.header{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: 17px;
 }

@@ -3,9 +3,11 @@
 }
 .ui.four.stackable.cards {
   padding-top: 100px;
+
 }
 .ui.three.stackable.cards {
   padding-top: 100px;
+
 }
 .description {
   padding-bottom: 20px;
@@ -67,7 +69,7 @@ i.icon {
   margin: 0;
   padding-top: 30px;
   height: 10px;
-  margin-top: 550px;
+  margin-top: 50px;
   font-size: 13px;
 }
 .ui.inverted.orange.button,
@@ -85,4 +87,14 @@ i.icon {
   box-shadow: 0 0 0 2px #a291fb inset !important;
   color: #a291fb;
   margin-bottom: 10px;
+}
+.ui.huge.header{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 70px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 15px;
 }
