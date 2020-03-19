@@ -3,14 +3,17 @@
 }
 .ui.four.stackable.cards {
   padding-top: 100px;
+  margin-bottom: 20px;
 
 }
 .ui.three.stackable.cards {
   padding-top: 100px;
+  margin-bottom: 20px;
 
 }
 .description {
   padding-bottom: 20px;
+
 }
 .size {
   width: 427px;
@@ -69,7 +72,6 @@ i.icon {
   margin: 0;
   padding-top: 30px;
   height: 10px;
-  margin-top: 150px;
   font-size: 13px;
 }
 .ui.inverted.orange.button,
