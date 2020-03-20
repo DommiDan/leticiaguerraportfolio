@@ -131,6 +131,8 @@ p {
 }
 img {
   text-align: center;
+  width: 80%;
+  height: 80%
 }
 h1 {
   text-align: center;
@@ -149,5 +151,7 @@ img.ui.image {
 video {
   margin: 0 auto;
   display: block;
-  margin-bottom: 50px
+  margin-bottom: 50px;
+  width: 80%;
+  height: 80%
 }
