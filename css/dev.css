@@ -89,6 +89,7 @@ i.icon {
   box-shadow: 0 0 0 2px #a291fb inset !important;
   color: #a291fb;
   margin-bottom: 10px;
+  margin-left: 55%;
 }
 .ui.huge.header{
   font-family: 'Permanent Marker', cursive;
@@ -154,4 +155,14 @@ video {
   margin-bottom: 50px;
   width: 80%;
   height: 80%
+}
+#center {
+  text-align: center;
+  display: inline-block
+}
+#left {
+  margin-left: 10%
+}
+#right {
+ margin-left: 10%;
 }
