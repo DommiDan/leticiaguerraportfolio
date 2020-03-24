@@ -172,7 +172,7 @@ body {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
-  background-image: url("./source.gif");
+  /* background-image: url("./source.gif"); */
   background-size: contain;
   color: black;
 }
@@ -180,7 +180,7 @@ body {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5); 
-  background-image: url("./source2.gif");
+  /* background-image: url("./source2.gif"); */
   background-size: cover;
   color: black;
 }
