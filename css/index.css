@@ -57,7 +57,7 @@ i.icon {
   color: deeppink;
 }
 .footer {
-  background-color: black;
+  background-color: orange;
   left: 0;
   bottom: 0;
   color: white;
@@ -67,7 +67,7 @@ i.icon {
   margin: 0;
   padding-top: 30px;
   height: 10px;
-  margin-top: 50px;
+  margin-top: 280px;
   font-size: 13px;
 }
 .ui.inverted.orange.button,
@@ -121,7 +121,7 @@ p {
   margin: 50px;
 }
 body {
-  background-image: url(./back-01-01.jpg);
+  
   width: 100%;
   background-size: 100%;
 }
@@ -184,5 +184,117 @@ body {
   background-size: cover;
   color: black;
 }
+.info {
+  text-align: center;
+  padding-bottom: 40px;
+  
+}
+img {
+  text-align: center;
+  width: 60%;
+  height: 60%
+}
+h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+}
+#center {
+  text-align: center;
+  display: inline-block
+}
+#left {
+  margin-left: 10%
+}
+#right {
+ margin-left: 10%;
+}
+.carousel-item {
+  width:50%;
+  height:50%
+}
+.ui.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem 0;
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  background: orange;
+  font-weight: 400;
+  border: 1px solid #ffa500;
+  -webkit-box-shadow: 0 1px 2px 0 orange;
+  box-shadow: 0 1px 2px 0 orange;
+  border-radius: .28571429rem;
+  min-height: 2.85714286em;
+}
+.ui.inverted.segment, .ui.primary.inverted.segment {
+  background: orange;
+  color: rgba(255,255,255,.9);
+  margin-bottom: 300px;
+}
+.ui.secondary.inverted.pointing.menu {
+  border-width: 2px; 
+  border-color: orange
+}
+
+.ui.segment {
+  position: relative;
+  background: #fff;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+  margin: 0rem 0;
+  padding: 1em 1em;
+  border-radius: .28571429rem;
+  border: 1px solid rgba(34,36,38,.15);
+}
+.ui.two.cards {
+  margin-left: -1em;
+  margin-right: -1em;
+  margin: 40px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  text-decoration: none;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 
+.container:hover .overlay {
+  opacity: 1;
+  text-decoration: none;
+  
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  text-decoration: none;
+ 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(127, 0, 186);
+}
